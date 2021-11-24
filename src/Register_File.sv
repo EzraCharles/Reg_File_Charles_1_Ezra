@@ -29,7 +29,7 @@ FF_D_32 FF_D_32(
 	.clk(clk), 
 	.rst(rst), 
 	.and_i1(Reg_Write_i), 
-	.and_i2(), 
+	.and_i2(cp_o), 
 	.q(conection)
 );
 
